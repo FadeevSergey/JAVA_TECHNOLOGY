@@ -3,6 +3,70 @@
 [Условия домашних заданий](http://www.kgeorgiy.info/courses/java-advanced/homeworks.html)
 
 
+## Домашнее задание 5. JarImplementor
+
+Класс должен реализовывать интерфейс
+[JarImpler](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/JarImpler.java).
+
+Тестирование
+
+ * простой вариант:
+    ```info.kgeorgiy.java.advanced.implementor jar-interface <полное имя класса>```
+ * сложный вариант:
+    ```info.kgeorgiy.java.advanced.implementor jar-class <полное имя класса>```
+ * продвинутый вариант:
+    ```info.kgeorgiy.java.advanced.implementor jar-advanced <полное имя класса>```
+
+Исходный код тестов:
+
+* [простой вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceJarImplementorTest.java)
+* [сложный вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassJarImplementorTest.java)
+* [продвинутый вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/AdvancedJarImplementorTest.java)
+
+
+## Домашнее задание 4. Implementor
+
+Класс должен реализовывать интерфейс
+[Impler](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/Impler.java).
+
+Тестирование
+
+ * простой вариант:
+    ```info.kgeorgiy.java.advanced.implementor interface <полное имя класса>```
+ * сложный вариант:
+    ```info.kgeorgiy.java.advanced.implementor class <полное имя класса>```
+ * продвинутый вариант:
+    ```info.kgeorgiy.java.advanced.implementor advanced <полное имя класса>```
+
+Исходный код тестов:
+
+* [простой вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/InterfaceImplementorTest.java)
+* [сложный вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/ClassImplementorTest.java)
+* [продвинутый вариант](modules/info.kgeorgiy.java.advanced.implementor/info/kgeorgiy/java/advanced/implementor/AdvancedImplementorTest.java)
+
+
+## Домашнее задание 3. Студенты
+
+Тестирование
+
+ * простой вариант:
+    ```info.kgeorgiy.java.advanced.student StudentQuery <полное имя класса>```
+ * сложный вариант:
+    ```info.kgeorgiy.java.advanced.student StudentGroupQuery <полное имя класса>```
+
+Исходный код
+
+ * простой вариант:
+    [интерфейс](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQuery.java),
+    [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQueryTest.java)
+ * сложный вариант:
+    [интерфейс](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentGroupQuery.java),
+    [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentGroupQueryTest.java)
+ * продвинутый вариант:
+    [интерфейс](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedStudentGroupQuery.java),
+    [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedStudentGroupQueryTest.java)
+
+
 ## Домашнее задание 2. ArraySortedSet
 
 Тестирование
