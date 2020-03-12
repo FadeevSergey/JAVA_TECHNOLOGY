@@ -93,4 +93,24 @@ public class StudentDB implements StudentGroupQuery {
                 filter(Student -> Student.getGroup().equals(group)).
                 collect(Collectors.toMap(Student::getLastName, Student::getFirstName, BinaryOperator.minBy(String::compareTo)));
     }
+
+    @Override
+    public List<Group> getGroupsByName(Collection<Student> students) {
+        return null;
+    }
+
+    @Override
+    public List<Group> getGroupsById(Collection<Student> students) {
+        return null;
+    }
+
+    @Override
+    public String getLargestGroup(Collection<Student> students) {
+        return null;
+    }
+
+    @Override
+    public String getLargestGroupFirstName(Collection<Student> students) {
+        return null;
+    }
 }
